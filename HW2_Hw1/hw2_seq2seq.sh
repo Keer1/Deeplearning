@@ -1,9 +1,4 @@
-#!/usr/bin/env bash
-# HW2: Seq2Seq testing wrapper
-# Usage: ./hw2_seq2seq.sh <data_dir> <output_file>
-# Example:
-#   ./hw2_seq2seq.sh data/testing_data testset_output.txt
-#   ./hw2_seq2seq.sh data/ta_review_data tareviewset_output.txt
+
 
 set -euo pipefail
 
