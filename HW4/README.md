@@ -5,7 +5,7 @@ This project evaluates generative quality, training stability, and class-conditi
 
 ---
 
-## **📊 Models Performance**
+## ** Models Performance**
 
 This table summarizes the best FID scores achieved during training:
 
@@ -22,7 +22,7 @@ This table summarizes the best FID scores achieved during training:
 
 ---
 
-## **📁 Repository Structure**
+## ** Repository Structure**
 
 Each model directory contains the following:
 
@@ -42,7 +42,7 @@ Each model directory contains the following:
 
 ---
 
-## **🖥 Training Environment**
+## **Training Environment**
 
 Training was conducted on the **Palmetto Cluster**:
 
@@ -54,7 +54,7 @@ Training was conducted on the **Palmetto Cluster**:
 
 ---
 
-## **⚙️ Model Configuration**
+## ** Model Configuration**
 
 ### **Common Parameters**
 - **Epochs:** 50  
@@ -67,7 +67,7 @@ Training was conducted on the **Palmetto Cluster**:
 
 ---
 
-## **🟦 DCGAN**
+## ** DCGAN**
 
 ### **Architecture Characteristics**
 - Standard convolutional generator & discriminator  
@@ -84,7 +84,7 @@ Training was conducted on the **Palmetto Cluster**:
 
 ---
 
-## **🟥 WGAN**
+## ** WGAN**
 
 ### **Special Parameters**
 - **Critic Iterations:** 3  
@@ -101,7 +101,7 @@ Training was conducted on the **Palmetto Cluster**:
 
 ---
 
-## **🟩 ACGAN**
+## **ACGAN**
 
 ### **Special Parameters**
 - **Classes:** 10 (CIFAR-10)  
@@ -119,7 +119,7 @@ Training was conducted on the **Palmetto Cluster**:
 
 ---
 
-## **📌 Results Summary**
+## **Results Summary**
 
 ### **Performance Overview**
 - **DCGAN produced the best image quality and lowest FID**  
@@ -133,7 +133,7 @@ Training was conducted on the **Palmetto Cluster**:
 
 ---
 
-## **✅ Conclusion**
+## ** Conclusion**
 
 This project highlights the strengths and trade-offs across GAN architectures:
 
